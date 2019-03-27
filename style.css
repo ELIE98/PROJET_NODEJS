@@ -1,0 +1,247 @@
+
+/* HEADER */
+header
+{
+    background: red;
+    border-radius: 5px;
+    position: fixed top;
+    opacity: 0.8;
+    
+}
+ header .logo_header
+{
+    border-radius: 100%;
+    
+    width: 120px;
+    height: 120px;
+    margin-left: 15px;
+    border: 2px solid black;
+}
+header #nav
+{
+    width: 500px;
+    float: right;
+   /* border: 1px solid black;*/
+    margin-top: 30px;
+   
+}
+header #nav ul li 
+{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 7px;
+    
+}
+header a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Limelight',sans-serif,Arial;
+}
+header a:hover
+{
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+
+
+/* MAIN */
+body .main
+{
+   /* display: inline;*/
+   /* background: url("image/background.jpeg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    color: white;
+    padding-bottom: 10px;*/
+    background: url("image/background.jpeg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+background-repeat: repeat;
+color: white;
+opacity: 0.9;
+
+}
+
+body .main h1
+{
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 7px;
+    font-family: 'Limelight',sans-serif,Arial, Helvetica, sans-serif;
+    background: red;
+    border-radius: 7px;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+body .main h1:hover
+{
+    opacity: 0.8;
+}
+body .msg_welcome
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+body h2
+{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 35px;
+    background: red;
+    margin-left: 550px;
+    margin-right: 550px;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+
+}
+body h4
+{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgb(156, 43, 43);
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    
+}
+body .mainArticle article div
+{
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(165, 162, 162);
+    
+    
+    width: 256px;
+    height: 256px;
+    padding: 3px;
+    margin-top: 40px;
+    
+    
+
+}
+body .mainArticle article div
+{
+    opacity: 0.9;
+}
+
+body .mainArticle article
+{
+    display: inline-block;
+    margin-left: 50px;
+}
+body article button
+{
+    border-radius: 5px;
+    background: green;
+    width: 257px;
+    height: 3em;
+    margin-top: 2px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border: 0.5px solid rgb(128, 121, 121);
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+}
+body article button:hover
+{
+    background: rgb(47, 235, 10);
+    opacity: 0.9;
+    border: 1px solid white;
+}
+
+body article div img
+{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+body .horaire div
+{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid rgb(199, 198, 198);
+    margin-left: 150px;
+    height: 100%;
+    margin-top: 20px;
+    width: 350px;
+    z-index: 2;
+    background: rgb(253, 250, 250);
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 1px black;
+
+}
+body .horaire 
+{
+    margin-left: 0px;
+    background: rgb(241, 42, 42);
+    z-index: 1;
+    
+
+}
+body .horaire h5
+{
+    font-family: 'Limelight',sans-serif,Arial, Helvetica ;
+}
+
+
+/* FOOTER */
+footer
+{
+   background: black;
+   border: 1px solid black;
+   border-radius: 5px; 
+    
+}
+
+footer .adresse
+{
+    float: left;
+    margin-left: 200px;
+    margin-top: 15px;
+    margin-bottom: 45px;
+    background: rgb(8, 8, 8);
+    color:white;
+    padding: 7px;
+    border-radius: 6px;
+}
+footer .contact
+{
+    float: right;
+    margin-right: 200px;
+    margin-top: 15px;
+    margin-bottom: 45px;
+    background: rgb(8, 8, 8);
+    color:white;
+    padding: 10px;
+    
+    border-radius: 6px;
+}
+footer .contact p a
+{
+    color: white;
+    text-decoration: none;
+}
+footer .adresse h4
+{
+    font-family: 'Limelight',sans-serif,Arial, Helvetica ;
+    color: rgb(80, 182, 212);
+}
+footer .contact h4
+{
+    font-family: 'Limelight',sans-serif,Arial, Helvetica ;
+    color: rgb(80, 182, 212);
+}
+
+
+
